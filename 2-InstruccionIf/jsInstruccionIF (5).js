@@ -4,12 +4,8 @@ function mostrar()
 
     edad = parseInt(document.getElementById("edad").value);
 
-    if(edad >= 18)
+    if(edad >= 18 || edad < 13)
     {
-        alert("Usted es mayor de edad")
-    }
-    else if(edad < 13)
-    {
-        alert("Es un niño")
+        alert("No es un adolescente")
     }
 }
