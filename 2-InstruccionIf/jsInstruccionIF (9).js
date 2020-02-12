@@ -1,6 +1,17 @@
 function mostrar()
-{
-	//Genero el número RANDOM entre 1 y 10 
-	
+{	
+	var min = 1;
 
-}//FIN DE LA FUNCIÓN
+	var max = 10;
+
+	var random;
+
+	min = parseInt(min);
+
+	max = parseInt(max);
+
+	random = Math.floor(Math.random() * ((max + 1) -  min) + min);
+
+	alert("Numero Random: " + random);
+
+}
